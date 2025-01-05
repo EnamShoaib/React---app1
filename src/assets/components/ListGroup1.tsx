@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function listGroup1() {
+function ListGroup1() {
   let items = ["Advenucre", "Romantic", "Comidy", "Action"];
   const [selectedIndex, setselectedIndex] = useState(-1);
 
@@ -29,4 +29,4 @@ function listGroup1() {
   );
 }
 
-export default listGroup1;
+export default ListGroup1;
